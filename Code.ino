@@ -26,7 +26,7 @@ void loop() {
       xmotion.Right0(50, 200);
     }
     if (m == 1) {
-      xmotion.ArcTurn(80,60,500);
+      xmotion.Forward(100,1);
     }
     if (dd == 1) {
       xmotion.ArcTurn(40, 0, 4);
@@ -39,7 +39,7 @@ void loop() {
     }
     if (s == 1) {
       xmotion.ArcTurn(0, 40, 250);
-      xmotion.Forward(100,1);
+      //xmotion.Forward(100,1);
     }
 
     xmotion.Forward(35, 1);
